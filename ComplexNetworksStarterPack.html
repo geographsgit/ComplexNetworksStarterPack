@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ComplexNetworksStarterPack</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>ComplexNetworksStarterPack</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/v/MEGA/Implementations_since_11_2018/repositorio_redes/ComplexNetworksStarterPack.py">/home/v/MEGA/Implementations_since_11_2018/repositorio_redes/ComplexNetworksStarterPack.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="igraph.html">igraph</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="networkx.html">networkx</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ComplexNetworksStarterPack.html#ComplexNetworksStarterPack">ComplexNetworksStarterPack</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ComplexNetworksStarterPack">class <strong>ComplexNetworksStarterPack</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>This&nbsp;class&nbsp;offers&nbsp;examples&nbsp;on&nbsp;how&nbsp;to&nbsp;build&nbsp;a&nbsp;network&nbsp;from&nbsp;data,&nbsp;compute&nbsp;some&nbsp;metrics&nbsp;and&nbsp;export&nbsp;the&nbsp;results<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ComplexNetworksStarterPack-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="ComplexNetworksStarterPack-build_network"><strong>build_network</strong></a>(self, file_name)</dt><dd><tt>Build&nbsp;the&nbsp;network&nbsp;from&nbsp;input&nbsp;data,&nbsp;which&nbsp;is&nbsp;either&nbsp;an&nbsp;adjacency/weights&nbsp;matrix&nbsp;or&nbsp;an&nbsp;adjacency&nbsp;list&nbsp;<br>
+:param&nbsp;file_name:&nbsp;file&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="ComplexNetworksStarterPack-compute_metrics"><strong>compute_metrics</strong></a>(self)</dt><dd><tt>Compute&nbsp;some&nbsp;network&nbsp;metrics</tt></dd></dl>
+
+<dl><dt><a name="ComplexNetworksStarterPack-export_data"><strong>export_data</strong></a>(self, g, stat, data, graph_lib)</dt><dd><tt>Export&nbsp;metrics&nbsp;to&nbsp;the&nbsp;output&nbsp;folder<br>
+:param&nbsp;g:&nbsp;graph<br>
+:param&nbsp;stat:&nbsp;name&nbsp;of&nbsp;the&nbsp;metric<br>
+:param&nbsp;data:&nbsp;data&nbsp;to&nbsp;be&nbsp;exported<br>
+:param&nbsp;graph_lib:&nbsp;Either&nbsp;igraph&nbsp;or&nbsp;networkx</tt></dd></dl>
+
+<dl><dt><a name="ComplexNetworksStarterPack-plot_net"><strong>plot_net</strong></a>(self, name, npixels)</dt><dd><tt>Network&nbsp;plotting<br>
+:param&nbsp;g:&nbsp;graph<br>
+:param&nbsp;name:&nbsp;name&nbsp;to&nbsp;save<br>
+:param&nbsp;npixels:&nbsp;size&nbsp;of&nbsp;the&nbsp;figure&nbsp;in&nbsp;pixels</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>cnsp</strong> = &lt;ComplexNetworksStarterPack.ComplexNetworksStarterPack object&gt;</td></tr></table>
+</body></html>
